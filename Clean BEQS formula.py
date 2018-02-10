@@ -10,7 +10,7 @@ if not session.openService("//blp/refdata"):
 
 refDataService = session.getService("//blp/refdata")
 request = refDataService.createRequest("BeqsRequest")
-request.set("screenName","AEX Index")
+request.set("screenName","NAME OF YOUR SCREEN AS YOU SAVED IT ON TERMINAL")
 request.set("screenType","PRIVATE")
 
 session.sendRequest(request)
